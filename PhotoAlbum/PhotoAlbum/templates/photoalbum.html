@@ -1,0 +1,50 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 80%;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr{
+        background-color: #E4C6FF
+    }
+
+ 
+</style>
+<h3 style="color:#862d59"> Photos of bunnies.</h3>
+<table border="1">
+    <tr>
+        <td>
+            <img src="https://i.pinimg.com/originals/3a/54/69/3a546920763b66c3c0cb118676d0c3b5.jpg" width="300" height="300" />
+        </td>
+        <td>
+            <img src=" https://images.unsplash.com/photo-1516632664305-eda5d6a5bb99?ixlib=rb-1.2.1&w=1000&q=80" width="300" height="300" />
+        </td>
+        <td>
+            <img src="https://www.peta2.com/wp-content/uploads/2013/12/bunny-running.jpg" width="300" height="300" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://rabbit.org/adoption/bunny.jpg" width="300" height="300" />
+        </td>
+        <td>
+            <img src="http://albums.tapuz.co.il/Albums/2719602/0-11/qvpxuoq/27196022007122914115.jpg" width="300" height="300" />
+        </td>
+        <td>
+            <img src="https://cdn.wallpapersafari.com/41/34/M1IDnJ.jpg" width="300" height="300" />
+        </td>
+    </tr>
+</table>
+
+{% endblock %}
